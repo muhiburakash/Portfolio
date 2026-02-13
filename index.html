@@ -29,12 +29,9 @@
 <body class="bg-[#121212] text-[#FEFEFE]">
   <!-- Header section -->
   <header>
-    <div class="container flex mx-auto justify-between items-center py-5">
-      <div class="flex lg:hidden ">
-        <span class="text-3xl"><i class="fa-solid fa-bars"></i></span>
-      </div>
+    <div class="container flex mx-auto justify-between items-center px-5 md:px-0 py-5">
       <div class=" ">
-        <h2 class="logo font-bold text-3xl text-[#3DADF9] text-right lg:text-left">Muhibur</h2>
+        <h2 class="logo font-bold text-3xl text-[#3DADF9] text-right lg:text-left">muhiburakash</h2>
       </div>
       <nav>
         <ul class=" hidden lg:flex gap-8 text-xl font-medium cursor-pointer text-[#959595] ">
@@ -45,10 +42,13 @@
           <li class="hover:text-[#3DADF9] ease-in-out hover:scale-95 duration-300">Contact me</li>
         </ul>
       </nav>
-      <div>
+      <div class="hidden lg:flex">
         <button
           class=" text-xl px-5 lg:px-8 py-2 lg:py-3  bg-[#3DADF9] rounded-md hover:bg-[#25a3f7] hover:cursor-pointer transition-transform duration-300 ease-in-out hover:scale-95">Hire
           Me</button>
+      </div>
+      <div class="flex lg:hidden ">
+        <span class="text-3xl"><i class="fa-solid fa-bars"></i></span>
       </div>
     </div>
   </header>
@@ -83,18 +83,18 @@
           class=" text-xl px-5 lg:px-8 py-2 lg:py-3  bg-transparent text-[#959595] border border-[#959595] rounded-md hover:bg-linear-to-l hover:cursor-pointer transition-transform duration-300 ease-in-out hover:scale-95 hover:text-[#3DADF9] hover:border-[#3DADF9]">Downlead
           CV </button>
       </div>
-      <div class="flex justify-evenly mx-auto lg:mx-0 space-x-5 mt-10 p-7 rounded-md bg-[#1b1b1b] w-[95%] md:w-[90%]">
+      <div class="flex justify-evenly mx-auto lg:mx-0 space-x-5 mt-7 p-6 rounded-md bg-[#1b1b1b] w-[95%] md:w-[90%]">
         <div>
           <h3 class="text-[#3DADF9] text-2xl font-extrabold">5+</h3>
-          <h4 class="text-[#DFDFDF] text-[16px] lg:text-xl font-bold">Experience</h4>
+          <h4 class="text-[#DFDFDF] text-[14px] lg:text-xl font-bold">Experience</h4>
         </div>
         <div class="border-l-2 border-r-2 border-[#DFDFDF] px-5">
           <h3 class="text-[#3DADF9] text-2xl font-extrabold">100+</h3>
-          <h4 class="text-[#DFDFDF] text-[16px] lg:text-xl font-bold">Project done</h4>
+          <h4 class="text-[#DFDFDF] text-[14px] lg:text-xl font-bold">Project done</h4>
         </div>
         <div>
           <h3 class="text-[#3DADF9] text-2xl font-extrabold">80+</h3>
-          <h4 class="text-[#DFDFDF] text-[16px] lg:text-xl font-bold">Happy Clients</h4>
+          <h4 class="text-[#DFDFDF] text-[14px] lg:text-xl font-bold">Happy Clients</h4>
         </div>
       </div>
     </div>
@@ -111,7 +111,7 @@
     <p class="text-xl text-[#959595]">Professional services tailored to bring your digital vision to life with
       cutting-edge technology.
     </p>
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-8 mt-15">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-8 mt-15 mx-5 md:mx-0">
       <!-- card 01 -->
       <div
         class="card bg-[#1b1b1b] p-10 rounded-md text-left space-y-2 border border-[#1b1b1b] hover:border-[#3DADF9] hover:transition-transform duration-300 hover:scale-101 ease-in-out">
@@ -169,6 +169,36 @@
       </div>
     </div>
   </section>
+
+  <!-- footer section -->
+  <footer class=" bg-[#1b1b1b]">
+    <div class="container mx-auto py-10 text-center justify-center space-y-5">
+      <h2 class="logo font-bold text-3xl text-[#3DADF9] text-center ">muhiburakash</h2>
+      <ul class="flex gap-8 text-xl font-medium cursor-pointer text-[#959595] text-center justify-center">
+        <li class="hover:text-[#3DADF9] ease-in-out hover:scale-95 duration-300">Home</li>
+        <li class="hover:text-[#3DADF9] ease-in-out hover:scale-95 duration-300">About me</li>
+        <li class="hover:text-[#3DADF9] ease-in-out hover:scale-95 duration-300">Services</li>
+        <li class="hover:text-[#3DADF9] ease-in-out hover:scale-95 duration-300">Portfolio</li>
+        <li class="hover:text-[#3DADF9] ease-in-out hover:scale-95 duration-300">Contact me</li>
+      </ul>
+      <!-- social icon -->
+      <div class="space-x-2 pt-5">
+        <span
+          class="border border-[#959595] rounded-full px-[10px] py-2 text-[15px] hover:text-[#3DADF9] cursor-pointer hover:border-[#3DADF9] transition-transform duration-75  hover:scale-95 ease-in-out bg-[#1b1b1b]"><i
+            class="fa-brands fa-facebook-f"></i></span>
+        <span
+          class="border border-[#959595] rounded-full px-[10px] py-2 text-[15px] hover:text-[#3DADF9] cursor-pointer hover:border-[#3DADF9] transition-transform duration-75  hover:scale-95 ease-in-out bg-[#1b1b1b]"><i
+            class="fa-brands fa-linkedin-in"></i></span>
+        <span
+          class="border border-[#959595] rounded-full px-[10px] py-2 text-[15px] hover:text-[#3DADF9] cursor-pointer hover:border-[#3DADF9] transition-transform duration-75  hover:scale-95 ease-in-out bg-[#1b1b1b]"><i
+            class="fa-brands fa-instagram"></i></span>
+        <span
+          class="border border-[#959595] rounded-full px-[10px] py-2 text-[15px] hover:text-[#3DADF9] cursor-pointer hover:border-[#3DADF9] transition-transform duration-75  hover:scale-95 ease-in-out bg-[#1b1b1b]"><i
+            class="fa-brands fa-twitter"></i></span>
+      </div>
+      <p class="pt-5 text-[#959595] text-[16px]">© 2026 Muhibur Akash. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
